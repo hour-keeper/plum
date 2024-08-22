@@ -381,7 +381,6 @@ if defined GIT_INSTALL_ROOT set search_path=%search_path%^
 %GIT_INSTALL_ROOT%\mingw%arch%\bin;^
 %GIT_INSTALL_ROOT%\usr\bin;
 
-
 rem find 64-bit Git in 32-bit cmd.exe
 if defined ProgramW6432 set search_path=%search_path%^
 %ProgramW6432%\Git\cmd;^
